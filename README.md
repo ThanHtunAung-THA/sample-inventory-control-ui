@@ -16,3 +16,7 @@ This is a sample version of inventory-control-ui. created by using React coreui.
 
 
 >>>Thank you for your support.
+
+>>>how to run
+1. run this in proj.root --> npm install
+2. --> npm start

@@ -25,7 +25,7 @@ class App extends Component {
       <BrowserRouter>
         <React.Suspense fallback={loading}>
           <Switch>
-            <Route exact path="/" render={() => <Redirect to="/user-login" />} />
+            <Route exact path="/" render={() => <Redirect to="/admin-login" />} />
             
             {/* Auth */}
             <Route
