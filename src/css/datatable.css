@@ -1,0 +1,27 @@
+.DataTable {
+    font-family: 'Arial', sans-serif; /* Change the font */
+    font-size: 14px; /* Adjust text size */
+    color: #333; /* Adjust text color */
+}
+
+.DataTable-header {
+    background-color: #0b7ae9; /* Add a light background to the header */
+    font-weight: bold; /* Make header text bold */
+}
+
+.DataTable-row {
+    border-bottom: 1px solid #ddd; /* Add a divider between rows */
+}
+
+.DataTable-row:hover {
+    background-color: #f1f1f1; /* Add a hover effect */
+}
+
+.DataTable-wrapper {
+    max-height: 500px; /* Add a scroll limit if needed */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.yGWof {
+    height: 300px !important;
+}

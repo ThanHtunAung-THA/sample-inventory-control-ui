@@ -1,0 +1,35 @@
+
+     .container.fit {
+        width: fit-content;
+        margin-top: 3em;
+     }
+     .order-overview {
+         background-color: #2c3e50;
+         color: white;
+         padding: 10px;
+         font-weight: bold;
+     }
+     .order-overview .price {
+         float: right;
+     }
+     .payment-method {
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     .form-control:valid {
+         border-color: #28a745;
+     }
+     .form-control:valid + .valid-feedback {
+         display: block;
+     }
+     .valid-feedback {
+         display: none;
+     }
+     .card-icons img {
+         height: 30px;
+         margin-right: 5px;
+     }
+     .btn-cancel {
+         background-color: #2c3e50;
+         color: white;
+     }

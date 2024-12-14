@@ -1,0 +1,25 @@
+/* Form Label Styling */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  /* Form Input Styling */
+  input {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+  }
+  
+  /* Button Styling */
+  .form-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  
+  .form-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,80 @@
+.login {
+    padding: 0 16px;
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+    background-color: #3e405b;
+    /* border: 1px solid #39372e; */
+    box-shadow: 0px 0px 8px rgba(166, 167, 155, 0.6);
+    /* // width: ; */
+    
+    /* // background: linear-gradient(to bottom right, #f8f9fa, #e9ecef); */
+  }
+  .admin-login-bg{
+    background-image: url('/image/bg-login.jpg');
+    /* // background: linear-gradient(135deg, #1e3a5f, #2e5379); */
+    background-size: cover;
+  }
+  .login-bg{
+    background-image: url('/image/bg-login.jpg');
+    /* // background: linear-gradient(135deg, #dceeff, #ffffff); */
+    background-size: cover;
+  }
+  .login-title{
+    color: #3e405b;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for title */
+  
+  }
+  .login-title:hover{
+    color: #fff;
+  }
+  .form-label{
+    display: contents;
+    color: #feec72;
+    font-size: 16px;
+  }
+  .login-input{
+    height: 46px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s; /* Smooth transition for focus effect */
+    border-radius: 2rem !important;
+    border: 2px solid #e07a5f;
+  
+  }
+  .login-input:focus {
+    border: 2px solid #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+  }
+  .login-input::placeholder {
+    color: #e07a5f; /* Change this color to whatever you prefer */
+    opacity: 0.9; /* Makes sure the placeholder is fully opaque */
+  }
+  .input-group-text.login-input {
+    border-radius: 10rem !important;
+  }
+  
+  .login-btn {
+    width: 273px !important;
+    border-radius: 2rem !important;
+    margin-left: 4rem;
+  }
+  
+  .login div.card-body.rounded-bottom.admin, 
+  .login div.card-body.rounded-bottom.user,
+  .login div.card-body.rounded-bottom.register {
+    background-color: #e07a5f;
+    padding-top: 12em;
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+  
+  }
+  
+  .login div.card-body.rounded-bottom.admin {
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 7rem !important;
+  }
+  .login div.card-body.rounded-bottom.user {
+    border-bottom-right-radius: 0rem !important;
+    border-bottom-left-radius: 7rem !important;
+  }
+  
